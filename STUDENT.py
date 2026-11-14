@@ -13,3 +13,12 @@ print("Total marks: ",total)
 avg = total / no_of_sub
 
 print("Average is: ",avg)
+
+total_marks = total * no_of_sub
+percentage = total_marks / total * 100
+print("Percentage is ",percentage)
+
+if percentage >= 40:
+    print("PASS")
+else:
+    print("FAIL")
